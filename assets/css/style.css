@@ -14,6 +14,7 @@ body {
 	background-color: #ffffff;
 }	
 
+
 /*
   ========================================
   header styles
@@ -100,10 +101,11 @@ li:not(:last-child) {
 
 /*
   ========================================
-  All About Me 
+  All About Me and Contact Info Section 
   ========================================
 */
 
+.contact-info,
 .all-about-me {
 	color: #4aaaa5;
 	background-color: #ffffff;
@@ -118,6 +120,77 @@ h2 {
 	font-weight: bold;
 	text-align: left;
 }
+
+/*
+  ========================================
+  Contact Form
+  ========================================
+*/
+
+
+form {
+	margin-bottom: 20px;
+}
+
+input,
+textarea {
+	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.contact-form {
+	text-align: left;
+}
+
+.contact-form label {
+	color: gray;
+  	cursor: pointer;
+  	font-weight: 400px;
+  	font-size: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+ 	border: 1px solid #c6c9cc;
+ 	border-radius: 5px;
+ 	display: block;
+ 	margin: 5px 0 27px 0;
+	padding: 5px 8px;  	
+	margin-bottom: 10px;
+}
+
+.input-text,
+.input-email {
+	width: 600px;
+}
+
+.contact-form input {
+	height: 35px;
+}
+
+.contact-form textarea {
+	height: 250px;
+	width: 600px;
+}
+
+/*
+  ========================================
+  Buttons
+  ========================================
+*/
+
+.button-default {
+	width: 150px;
+}
+
+.button-default {
+	color: white;
+	font-size: 18px;
+	padding-bottom: 5px;
+	background-color: #4aaaa5;
+	display: inline-block;
+}
+
 
 /*
   ========================================
@@ -173,6 +246,24 @@ p {
 	text-align: justify;
 }
 
+/*
+  ========================================
+ 	Hover Nav/links
+  ========================================
+*/
+a:hover {
+  color: #4aaaa5;
+}
+
+/*
+  ========================================
+ 	Image tag style
+  ========================================
+*/
+
+img {
+	border-radius: 8px;
+}
 /*
   ========================================
  Footer
