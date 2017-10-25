@@ -12,6 +12,9 @@ body {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #ffffff;
+	margin: 8px;
+	width: auto;
+
 }	
 
 
@@ -40,8 +43,12 @@ h1 {
 	float: left;
 	text-align: center;
 	height: 100px;
-	padding-top: 30px;
+	padding-top: 35px;
 	margin-bottom: 0;
+	font-size: 24px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-weight: bold;
 }	
 
 /*
@@ -80,6 +87,7 @@ li:not(:last-child) {
 */
 
 .main-container {
+	clear: both;
 	background-image: url("../../assets/images/background_pink_rice.png");
 	width: 100%;
 	text-align: center;
@@ -93,7 +101,6 @@ li:not(:last-child) {
 */
 
 .content-area {
-	clear: both;
 	width: 960px;
 	margin: 30px 0;
 	display: inline-block;
@@ -113,6 +120,7 @@ li:not(:last-child) {
 	padding: 0 20px;
 	border: 1px solid #dddddd;
 	display: inline-block;
+	margin-bottom: 100px;
 }
 
 h2 {
@@ -169,7 +177,7 @@ textarea {
 }
 
 .contact-form textarea {
-	height: 250px;
+	height: 100px;
 	width: 600px;
 }
 
@@ -200,7 +208,6 @@ textarea {
 
 #about-me-image {
 	width: 200px;
-	height: 200px;
 	float: left;
 	margin-right: 20px;
 }
@@ -220,11 +227,6 @@ textarea {
 	border: 1px solid #dddddd;
 }
 
-h3 {
-	color: #4aaaa5;
-	text-align: center;
-}
-
 .online-profile img {
 	margin-bottom: 20px;
 	margin-right: 10px;
@@ -235,6 +237,15 @@ h3 {
   ========================================
 */
 
+
+h3 {
+	color: #4aaaa5;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.17em;
+}
+
+
 h2,
 h3 {
 	margin: 20px 0;
@@ -244,6 +255,7 @@ h3 {
 
 p {
 	text-align: justify;
+	margin: 20px 0;
 }
 
 /*
@@ -263,7 +275,9 @@ a:hover {
 
 img {
 	border-radius: 8px;
+	display: inline-block;
 }
+
 /*
   ========================================
  Footer
@@ -273,8 +287,13 @@ img {
 footer {
 	clear: both;
 	text-align: center;
-  	padding: 30px 0;
+  	padding: 60px 0;
   	background-color: gray;
   	color: white;
   	border-top: 10px solid #4aaaa5;
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
 }
+
+

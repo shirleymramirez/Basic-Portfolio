@@ -1,0 +1,107 @@
+
+/*
+  ========================================
+  Portfolio Info Section 
+  ========================================
+*/
+
+.portfolio-info {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	width: 650px;
+	padding: 0 20px;
+	border: 1px solid #dddddd;
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: left;
+}
+
+/*
+  ========================================
+  Porfolio Section
+  ========================================
+*/
+
+#cooking,
+#baking,
+#pets,
+#coding,
+#games {
+	width: 250px;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+.about-me-cooking {
+	float: left;
+}
+
+.cooking-image {
+	top: 81%;
+	left: 50%;
+	transform: translate(-50%, -120%);
+	font-size: 18px;
+	width: 100%;
+}
+
+.about-me-cooking,
+.about-me-baking,
+.about-me-pets,
+.about-me-coding,
+.about-me-games {
+	position: relative;	
+	color: white;
+}
+
+.cooking-image,
+.baking-image,
+.cat-image,
+.coding-image,
+.gaming-image {
+	position: absolute;
+	background-color: #4aaaa5;
+	padding: 20px 100px;
+}
+
+.baking-image {
+	top: 50%;
+	left: 66%;
+	transform: translate(-39%, 18%);
+}
+
+.about-me-pets {
+	float: left;
+}
+
+.cat-image {
+	top: 50%;
+	left: 35%;
+	transform: translate(-35%, 15%);
+	width: 100%;
+}
+
+.coding-image {
+	top: 50%;
+	left: 50%;
+	transform: translate(0%, 18%);
+}
+
+.about-me-games {
+	float: left;
+}
+
+.gaming-image {
+	top: 55%;
+	left: 0%;
+	transform: translate(0%, 0%);
+	padding: 20px 81px;
+}
+
+
+
