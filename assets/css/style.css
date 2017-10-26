@@ -14,7 +14,6 @@ body {
 	background-color: #ffffff;
 	margin: 8px;
 	width: auto;
-
 }	
 
 
@@ -131,77 +130,6 @@ h2 {
 
 /*
   ========================================
-  Contact Form
-  ========================================
-*/
-
-
-form {
-	margin-bottom: 20px;
-}
-
-input,
-textarea {
-	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 14px;
-}
-
-.contact-form {
-	text-align: left;
-}
-
-.contact-form label {
-	color: gray;
-  	cursor: pointer;
-  	font-weight: 400px;
-  	font-size: 18px;
-}
-
-.contact-form input,
-.contact-form textarea {
- 	border: 1px solid #c6c9cc;
- 	border-radius: 5px;
- 	display: block;
- 	margin: 5px 0 27px 0;
-	padding: 5px 8px;  	
-	margin-bottom: 10px;
-}
-
-.input-text,
-.input-email {
-	width: 600px;
-}
-
-.contact-form input {
-	height: 35px;
-}
-
-.contact-form textarea {
-	height: 100px;
-	width: 600px;
-}
-
-/*
-  ========================================
-  Buttons
-  ========================================
-*/
-
-.button-default {
-	width: 150px;
-}
-
-.button-default {
-	color: white;
-	font-size: 18px;
-	padding-bottom: 5px;
-	background-color: #4aaaa5;
-	display: inline-block;
-}
-
-
-/*
-  ========================================
   Image link
   ========================================
 */
@@ -237,14 +165,12 @@ textarea {
   ========================================
 */
 
-
 h3 {
 	color: #4aaaa5;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.17em;
 }
-
 
 h2,
 h3 {
@@ -293,6 +219,8 @@ footer {
   	border-top: 10px solid #4aaaa5;
   	position: fixed;
   	bottom: 0;
+  	width: 100%;
+  	padding-right: 20px;
   	width: 100%;
 }
 
