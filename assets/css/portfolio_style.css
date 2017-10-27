@@ -28,78 +28,40 @@ h2 {
   ========================================
 */
 
-#cooking,
-#baking,
-#pets,
-#coding,
-#games {
+#cooking-image,
+#baking-image,
+#pets-image,
+#coding-image,
+#games-image {
 	width: 250px;
 	height: 200px;
 	margin-bottom: 50px;
 }
 
-.about-me-cooking {
-	float: left;
-}
-
-.cooking-image {
-	top: 81%;
-	left: 50%;
-	transform: translate(-50%, -120%);
-	font-size: 18px;
-	width: 100%;
-}
-
-.about-me-cooking,
-.about-me-baking,
-.about-me-pets,
-.about-me-coding,
-.about-me-games {
-	position: relative;	
+.cooking-text,
+.baking-text,
+.pets-text,
+.coding-text,
+.gaming-text {
 	color: white;
-}
-
-.cooking-image,
-.baking-image,
-.cat-image,
-.coding-image,
-.gaming-image {
 	position: absolute;
 	background-color: #4aaaa5;
-	padding: 20px 100px;
+	font-size: 18px;
+	padding-top: 15px;
+	height: 50px;
+	width: 250px;
+	transform: translateY(140px);
 }
 
-.baking-image {
-	top: 50%;
-	left: 66%;
-	transform: translate(-39%, 18%);
+.portfolioList {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
-.about-me-pets {
-	float: left;
+.portfolioList div:nth-child(odd) {
+	margin-left: 30px;
+	margin-right: 45px;
 }
 
-.cat-image {
-	top: 50%;
-	left: 35%;
-	transform: translate(-35%, 15%);
-	width: 100%;
-}
-
-.coding-image {
-	top: 50%;
-	left: 50%;
-	transform: translate(0%, 18%);
-}
-
-.about-me-games {
-	float: left;
-}
-
-.gaming-image {
-	top: 55%;
-	left: 0%;
-	transform: translate(0%, 0%);
-	padding: 20px 81px;
-}
 

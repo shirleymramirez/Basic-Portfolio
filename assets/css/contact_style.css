@@ -33,12 +33,6 @@ form {
 	margin-bottom: 20px;
 }
 
-input,
-textarea {
-	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	font-size: 14px;
-}
-
 .contact-form {
 	text-align: left;
 }
@@ -52,6 +46,7 @@ textarea {
 
 .contact-form input,
 .contact-form textarea {
+	font-size: 14px;
  	border: 1px solid #c6c9cc;
  	border-radius: 5px;
  	display: block;
@@ -63,14 +58,11 @@ textarea {
 .input-text,
 .input-email {
 	width: 600px;
-}
-
-.contact-form input {
 	height: 35px;
 }
 
 .contact-form textarea {
-	height: 100px;
+	height: 200px;
 	width: 600px;
 }
 
@@ -82,14 +74,12 @@ textarea {
 
 .button-default {
 	width: 150px;
-}
-
-.button-default {
 	color: white;
 	font-size: 18px;
 	padding-bottom: 5px;
 	background-color: #4aaaa5;
 	display: inline-block;
+	height: 50px;
 }
 
 
